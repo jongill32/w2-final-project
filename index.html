@@ -24,6 +24,355 @@
                 </div>
                 <h1 class="text--primary">
                     Treact
+                
                 </h1>
+            </div>
+            <nav>
+                <ul class="flex">
+                    <li><a href="#" class="nav__link cursor-no">About</a></li>
+                    <li><a href="#" class="nav__link cursor-no">Blog</a></li>
+                    <li><a href="#" class="nav__link cursor-no">Pricing</a></li>
+                    <li><a href="#pricing" class="nav__link cursor-no">Contact Us</a></li>
+                    <li><a href="#" class="nav__link cursor-no">Login</a></li>
+                    <li><button class="nav__btn button--hover cursor__no nav__link">Sign Up</button></li>
+                </ul>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fas fa-bars text--accent"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times text--primary"></i>
+                    </button>
+                    <ul class="menu__links">
+                        <li class="menu__list">
+                            <a class="menu__link cursor__no" onclick="closeMenu()">About</a>
+                        </li>
+                        <li class="menu__list">
+                            <a class="menu__link cursor__no" onclick="closeMenu()">Blog</a>
+                        </li>
+                        <li class="menu__list">
+                            <a class="menu__link cursor__no" onclick="closeMenu()">Pricing</a>
+                        </li>
+                        <li class="menu__list">
+                            <a class="menu__link cursor__no" onclick="closeMenu()">Contact Us</a>
+                        </li>
+                        <li><a href="" class="nav__link cursor__no">Login</a></li>
+                        <li><button class="nav__btn button--hover cursor__no">Sign UP</button></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="landing">
+        <div class="row flex">
+            <div class="content__left width-40">
+                <h1>Beautiful React Templates <span class="text--accent">for you.</span></h1>
+                <p>Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+                <form action="" class="landing__email--capture" >
+                    <input type="email" name="email" id="email" placeholder="Your E-mail Address" class="landing__input button--hover" /> 
+                    <button class="btn__email--submit nav__btn button--hover">Get Started</button> 
+                </form>
+                <h3 class="landing--smallcaps">OUR TRUSTES COMPANIES</h3>
+                <img src="./assets/trusted-customers.png" alt="Trusted Customers" class="landing--img-trusted">
+            </div>
+            <div class="content__right width-60">
+                <img src="./assets/landing-img.svg" alt="Working at a desk image" >            
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <div class="row flex column">
+            <h3 class="section__title text--accent">FEATURES</h3>
+            <h2 class="features__heading">We have Amazing <span class="text--accent">Service</span></h2>
+            <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eveniet quis aut, soluta in doloremque? Tempore aperiam impedit dolore natus.</p>
+        </div>
+        <div class="features__container flex row">
+            <div class="feature__item">
+                <i class="fa fa-shield text--accent"></i>
+                <dl>
+                    <dt>Secure </dt>
+                        <dd>We strictly only deal with vendors that provide top notch security.</dd>
+                </dl>
+            </div>
+            <div class="feature__item">
+                <i class="fa-solid fa-headset text--accent"></i>
+                <dl>
+                    <dt>24/7 Support</dt>
+                        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque temporibus placeat sunt consequatur!</dd>
+                </dl>
+            </div>
+            <div class="feature__item">
+                <i class="fa-solid fa-sliders text--accent"></i>
+                <dl>
+                    <dt>Customizable
+                        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates maiores aliquam corporis!</dd>
+                    </dt>
+                </dl>
+            </div>
+            <div class="feature__item">
+                <i class="fa-solid fa-arrows-up-down text--accent"></i>
+                
+                <dl>
+                    <dt>Reliable
+                        <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum odit laudantium magni aliquid?</dd>
+                    </dt>
+                </dl>
+            </div>
+            <div class="feature__item">
+                <i class="fa-solid fa-bolt text--accent"></i>
+                <dl>
+                    <dt>fast</dt>
+                        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat error qui odit quis? Perspiciatis, voluptatum rerum.</dd>
+                </dl>
+            </div>
+            <div class="feature__item">
+                <i class="fa-solid fa-hand-holding-heart text--accent"></i>
+                <dl>
+                    <dt>Easy
+                        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, ipsam.</dd>
+                    </dt>
+                </dl>
+            </div>
+        </div>
+    </section>
+    <section id="quality">
+        <div class="row flex">
+            <div class="flex">
+                <div class="content__left width-50">
+                    <h3 class="section__title text--accent">QUALITY WORK</h3>
+                    <h2>Developed and Designed by <span class="text--accent">Professionals</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officiis quaerat libero tenetur sit atque, impedit natus quam sint consectetur. Amet, molestiae distinctio similique sunt maxime fuga aliquid at praesentium aspernatur consequatur deleniti quis reprehenderit eaque exercitationem doloribus non labore laboriosam debitis mollitia tempora fugiat, rem excepturi molestias. Doloremque, sit.</p>
+                    <button class="nav__btn cursor__no"> Learn More</button>
+                </div>
+                <div class="content__right width-50">
+                    <img src="./assets/qualityWork-img.png" alt="Sample Website">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="steps">
+        <div class="row flex">
+            <div class="flex">
+                <div class="content__left width-50">
+                    <img src="./assets/laptop-with-landing.png" alt="Steps to get Started">
+                </div>
+                <div class="content__right width-50">
+                    <h3 class="section__title text--accent">Steps</h3>
+                    <h2>Easy to <span class="text--accent">Get Started</span></h2>
+                    <div class="features__container flex column">
+                        <div class="feature__item">
+                            <p class="faded">01</p>
+                            <dl>
+                                <dt>Register </dt>
+                                    <dd>Create an account with us using Google or Facebook.</dd>
+                            </dl>
+                        </div>
+                        <div class="feature__item">
+                            <p class="faded">02</p>
+                            <dl>
+                                <dt>Download </dt>
+                                    <dd>Browse and Download the template that you like from the marketplace.</dd>
+                            </dl>
+                        </div>
+                        <div class="feature__item">
+                            <p class="faded">03</p>
+                            <dl>
+                                <dt>Run </dt>
+                                    <dd>Follow the instructions to setup and customize the template to your needs.</dd>
+                            </dl>
+                        </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="values">
+        <div class="row flex">
+            <div class="content__left width-60">
+                <h3 class="section__title text--accent">Values</h3>
+                <h2 class="features__heading">We Always abide by Our <span class="text--accent">Principles</span></h2>
+                <p class="features__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ex nam, quod commodi a quidem mollitia, neque ipsam iste aliquam exercitationem veritatis architecto. Molestiae suscipit tenetur recusandae incidunt est a magni aliquam quasi, earum eaque expedita ipsum iure assumenda soluta!</p>
+                <div class="flex stacked">
+                    <div class="width-50 ">
+                        <div class="values__top">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <h4>Affordable</h4>
+                        </div>
+                        <p>We promise to offer you the best rate we can - at par with the industry standard.</p>
+                    
+                    </div>
+                    <div class="width-50">
+                        <div class="values__top">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <h4>Professionalism</h4>
+                        </div>
+                        <p>We assure you that our templates are designed and created by professional designers.</p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="content__right width-40">
+                <img src="./assets/values-img.svg" alt="Values Board image">
+            </div>
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="row flex column">
+            <h3 class="section__title text--accent">Pricing</h3>
+            <h2 class="features__heading">Reasonable and Flexible <span class="text--accent">Plans</span></h2>
+            <p class="features__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eveniet quis aut, soluta in doloremque? Tempore aperiam impedit dolore natus.</p>
+            <div class="features__container flex pricing__container">
+                <div class="pricing__card">
+                    <div class="pricing__top green">
+                        <h3 class="section__title">Personal</h3>
+                        <p class="price">$17.99</p>
+                        <p class="pricing__frequency">Monthly</p>
+                    </div>
+                    <div class="pricing__mid">
+                        <h3 class="section__title">For Individuals</h3>
+                        <p class="pricing__benefits">30 Templates</p>
+                        <p class="pricing__benefits">7 Landing Pages</p>
+                        <p class="pricing__benefits">12 Internal Pages</p>
+                        <p class="pricing__benefits">Basic Assistance</p>    
+                    </div>
+                    <div class="pricing__bottom">
+                        <button class="nav__btn cursor__no">Buy Now</button>
+                    </div>
+                </div>
+                <div class="pricing__card">
+                    <div class="pricing__top pricing__focus">
+                        <h3 class="section__title">Business</h3>
+                        <p class="price">$37.99</p>
+                        <p class="pricing__frequency">Monthly</p>
+                    </div>
+                    <div class="pricing__mid pricing__focus">
+                        <h3 class="section__title">For Small Businesses</h3>
+                        <p class="pricing__benefits">60 Templates</p>
+                        <p class="pricing__benefits">15 Landing Pages</p>
+                        <p class="pricing__benefits">22 Internal Pages</p>
+                        <p class="pricing__benefits">Priority Assistance</p>    
+                    </div>
+                    <div class="pricing__bottom pricing__focus">
+                        <button class="nav__btn pricing__focus">Buy Now</button>
+                    </div>
+                </div>
+                <div class="pricing__card">
+                    <div class="pricing__top red">
+                        <h3 class="section__title">Enterprise</h3>
+                        <p class="price">$57.99</p>
+                        <p class="pricing__frequency">Monthly</p>
+                    </div>
+                    <div class="pricing__mid">
+                        <h3 class="section__title">For Large Companies</h3>
+                        <p class="pricing__benefits">90 Templates</p>
+                        <p class="pricing__benefits">27 Landing Pages</p>
+                        <p class="pricing__benefits">37 Internal Pages</p>
+                        <p class="pricing__benefits small">Personal Assistance</p>    
+                    </div>
+                    <div class="pricing__bottom">
+                        <button class="nav__btn btn--red cursor__no">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="row flex">
+            <div class="content__left width-50">
+                <img src="./assets/testimonial-img.svg" alt="What people are saying image">
+            </div>
+            <div class="content__right width-50">
+                <h3 class="section__title text--accent">TESTIMONIALS</h3>
+                <h2 class="features__heading">Our Clients <span class="text--accent">Love Us.</span></h2>
+                <p class="features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est necessitatibus cum sed sapiente provident ducimus excepturi laudantium rerum illum labore?</p>
+                <div class="flex container__stars">
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                    <i class="fa fa-star"> </i>
+                </div>
+                <h3 class="section__title">Amazing User Experience</h3>
+                <p class="testimonial__customer">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut necessitatibus ea earum maiores adipisci eaque debitis, et mollitia, reprehenderit culpa doloremque? Blanditiis, labore vel dolor voluptatibus ducimus nihil et, non vitae dolores cupiditate adipisci odit, dolore deserunt voluptate minima laboriosam.</p>
+                <div class="testimonial__user--bar">
+                    <img src="./assets/testimonial--img--customer.avif" alt="Pic of Charlotte" class="img__customer"> 
+                    <div class="testimonial__customer--nametag">
+                        <h3 class="nametag">Charlotte Hale</h3>
+                        <p>Director, Delos Inc.</p>
+                    </div>
+                    <div class=""></div>
+                    <div class="testimonial__nav--arrows">
+                        <i class="fa fa-arrow-left testimonial__arrow text--accent cursor__no"></i>
+                        <i class="fa fa-arrow-right testimonial__arrow text--accent cursor__no"></i>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+    <footer class="row flex column">
+        <div class="links__container flex">
+            <div class="link__column flex column">
+                <dl>
+                    <dt>MAIN</dt>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Blog</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">FAQs</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Support</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">About Us</a></dd>
+                </dl>
                 
             </div>
+            <div class="link__column flex column">
+                <dl>
+                    <dt>PRODUCT</dt>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Log In</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Personal</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Business</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Team</a></dd>
+                </dl>
+            </div>
+            <div class="link__column flex column">
+                <dl>
+                    <dt>PRESS</dt>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Logos</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Events</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Stories</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Office</a></dd>
+                </dl>
+            </div>
+            <div class="link__column flex column">
+                <dl>
+                    <dt>Team</dt>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Career</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Founders</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Culture</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Onboarding</a></dd>
+                </dl>
+            </div>
+            <div class="link__column flex column">
+                <dl>
+                    <dt>Legal</dt>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">GDPR</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Privacy Policy</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Terms of Service</a></dd>
+                    <dd><a href="#" target="_blank" rel="noopener noreferrer cursor__no">Disclaimer</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="links__social flex">
+            <div class="logo__container flex">
+                <div class="logo">
+                    <h1>T</h1>
+                </div>
+                <h1>
+                    Treact Inc.
+                </h1>
+            </div>
+            <p>©2018 Treact Inc. All Rights Reserved.</p>
+            <div class="social__link">
+                <a href="#" class="social__circle cursor__no"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social__circle cursor__no"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social__circle cursor__no"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
